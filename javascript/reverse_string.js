@@ -1,5 +1,10 @@
 function reverseString(str) {
-  // type your code here
+  
+  let reversed = str.split('').reverse().join('')
+
+  return reversed
+
+
 }
 
 if (require.main === module) {
@@ -17,3 +22,4 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+// first we want to split each character up by adding a space in between, then we want to reverse the order of the characters, then we join them back together to form the reversed string.
